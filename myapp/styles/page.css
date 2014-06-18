@@ -9,6 +9,30 @@
 	border-top:1px solid #323437;
 	border-bottom:1px solid #323437;
 }
-.carImg img{
+#menu-right{
+    float:right;
+    right:0px;
+   margin-top:-4px;
+    margin-right:-20px
+    
+}
+#header{height:40px}
+#header ul ul { 
+    position: absolute; 
+    display: none;
+    z-index:500; 
+    margin-top: 0px;
+}
+#header ul ul li {
+    width: 150px; 
+    display: block; 
+    list-style:none;
+}
+
+#menu-right ul {
+    margin-right: 0.5em;
+    right: 0em;
    
 }
+#menu-right li{ list-style-type:none;}
+
